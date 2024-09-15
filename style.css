@@ -1,0 +1,103 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Inconsolata, monospace;
+}
+body {
+  background-color: #000000;
+}
+.navigation {
+  position: fixed;
+  z-index: 2;
+  margin-top: 0px;
+  background-color: black !important;
+  backdrop-filter: blur(10px);
+  width: 80%;
+  border: #3ccf91 1px solid;
+  border-radius: 20px;
+}
+.nav-item a {
+  color: white;
+}
+
+.index-section,
+.about-section,
+.project-section,
+.contact-section {
+  height: 100vh;
+  background-color: #000000;
+  padding-block: 5rem !important;
+}
+.content {
+  height: 80%;
+  padding-top: 20px;
+}
+.inside-content {
+  height: 80%;
+  border: 1px solid white;
+  background-color: rgba(255, 255, 255, 0.142);
+  backdrop-filter: blur(20px);
+}
+.font-txt {
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5rem;
+}
+.font-name {
+  font-family: "Merriweather Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 4rem;
+  color: white;
+}
+.about-p {
+  font-size: 1.5rem;
+}
+
+.text-green {
+  color: #3ccf91;
+}
+.hover-green:hover {
+  color: #3ccf91;
+}
+
+.fixed-button {
+  right: 10px;
+}
+.project-content,
+.contact-content {
+  height: fit-content;
+}
+header {
+  padding-top: 1rem;
+}
+.nav-link. active {
+  color: #3ccf91 !important;
+}
+.nav-link:hover {
+  color: #3ccf91 !important;
+}
+.fs-40 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.cards {
+  overflow: hidden;
+  box-shadow: 0px 0px 15px 0px rgba(61, 168, 123, 0.729);
+height: 100% !important;
+}
+.cards img:hover {
+  transform: scale(1.02);
+  transition: 0.5s;
+}
+.green-box {
+  background: #3ccf91;
+  padding-inline: 1.5rem;
+  border-radius: 20px;
+}
+.green-box:hover {
+  background: #34b680;
+}
+
