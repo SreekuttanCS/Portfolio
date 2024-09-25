@@ -35,44 +35,24 @@
   </head>
   <body>
     <header class="container-fluid bg-black d-flex justify-content-center">
-      <nav class="navbar navigation navbar-expand-lg bg-body-tertiary">
-        <div class="container">
-          <a class="text-white navbar-brand fs-1 fw-bold" href="#">sk.</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto gap-2">
-              <li class="nav-item">
-                <a
-                  class="nav-link active text-white fs-5"
-                  aria-current="page"
-                  href="index.html"
-                  >Home</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link fs-5" href="about.html">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link fs-5" href="project.html">Project</a>
-              </li>
-
-              <li class="nav-item">
-                <a class="nav-link fs-5" href="contact.html">Contact</a>
-              </li>
-            </ul>
-          </div>
+      <div class="nav container d-flex justify-content-between px-3">
+        <input type="checkbox" id="nav-check" />
+        <div class="nav-header fs-40 text-green">sk.</div>
+        <div class="nav-btn py-2">
+          <label for="nav-check">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
         </div>
-      </nav>
+
+        <div class="nav-links">
+          <a href="index.html" class="active">Home</a>
+          <a href="contact.html">Contact</a>
+          <a href="about.html">About</a>
+          <a href="project.html">Project</a>
+        </div>
+      </div>
     </header>
     <section class="container-fluid about-section py-5" id="about">
       <div class="container about-container py-md-5">
@@ -111,12 +91,11 @@
           <p class="text-white about-p">
             I have a
             <span class="text-green">Bachelor of Computer Applications</span>
-            (BCA) degree, with strong skills in HTML, CSS, and Bootstrap, and I
-            am currently learning JavaScript. I completed my higher education at
-            St Mary's Higher Secondary School and am from Trivandrum. My
-            education and ongoing <span class="text-green">learning </span> in
-            Web Development Technologies prepare me well for various roles in
-            the field.
+            (BCA) degree, with strong skills in HTML, CSS, Bootstrap,and
+            JavaScript. I completed my higher education at St Mary's Higher
+            Secondary School and am from Trivandrum. My education and ongoing
+            <span class="text-green">learning </span> in Web Development
+            Technologies prepare me well for various roles in the field.
           </p>
         </div>
       </div>

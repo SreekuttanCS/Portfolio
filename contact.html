@@ -35,44 +35,24 @@
   </head>
   <body>
     <header class="container-fluid bg-black d-flex justify-content-center">
-      <nav class="navbar navigation navbar-expand-lg bg-body-tertiary">
-        <div class="container">
-          <a class="text-white navbar-brand fs-1 fw-bold" href="#">sk.</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto gap-2">
-              <li class="nav-item">
-                <a
-                  class="nav-link active text-white fs-5"
-                  aria-current="page"
-                  href="index.html"
-                  >Home</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link fs-5" href="about.html">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link fs-5" href="project.html">Project</a>
-              </li>
-
-              <li class="nav-item">
-                <a class="nav-link fs-5" href="contact.html">Contact</a>
-              </li>
-            </ul>
-          </div>
+      <div class="nav container d-flex justify-content-between px-3">
+        <input type="checkbox" id="nav-check" />
+        <div class="nav-header fs-40 text-green">sk.</div>
+        <div class="nav-btn py-2">
+          <label for="nav-check">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
         </div>
-      </nav>
+
+        <div class="nav-links">
+          <a href="index.html" class="active">Home</a>
+          <a href="contact.html">Contact</a>
+          <a href="about.html">About</a>
+          <a href="project.html">Project</a>
+        </div>
+      </div>
     </header>
 
     <section class="container-fluid contact-section p-5" id="contact">

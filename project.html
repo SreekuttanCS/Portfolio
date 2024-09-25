@@ -35,44 +35,24 @@
   </head>
   <body>
     <header class="container-fluid bg-black d-flex justify-content-center">
-      <nav class="navbar navigation navbar-expand-lg bg-body-tertiary">
-        <div class="container">
-          <a class="text-white navbar-brand fs-1 fw-bold" href="#">sk.</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto gap-2">
-              <li class="nav-item">
-                <a
-                  class="nav-link active text-white fs-5"
-                  aria-current="page"
-                  href="index.html"
-                  >Home</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link fs-5" href="about.html">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link fs-5" href="project.html">Project</a>
-              </li>
-
-              <li class="nav-item">
-                <a class="nav-link fs-5" href="contact.html">Contact</a>
-              </li>
-            </ul>
-          </div>
+      <div class="nav container d-flex justify-content-between px-3">
+        <input type="checkbox" id="nav-check" />
+        <div class="nav-header fs-40 text-green">sk.</div>
+        <div class="nav-btn py-2">
+          <label for="nav-check">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
         </div>
-      </nav>
+
+        <div class="nav-links">
+          <a href="index.html" class="active">Home</a>
+          <a href="contact.html">Contact</a>
+          <a href="about.html">About</a>
+          <a href="project.html">Project</a>
+        </div>
+      </div>
     </header>
 
     <section class="container-fluid project-section p-5" id="project">
@@ -93,15 +73,14 @@
             </div>
           </div>
           <div class="row my-5">
-            <div class="col-md-6 my-lg-4  my-3">
+            <div class="col-md-6 my-lg-4 my-3">
               <div class="cards py-5 px-3">
                 <img src="presento.png" class="img-fluid" />
                 <h4 class="text-white hover-green text-center mt-3">
                   Presento Website
                 </h4>
 
-
-                <div class="d-flex justify-content-around text-white mt-3">
+                <div class="d-flex showcase justify-content-around text-white mt-3">
                   <div
                     class="d-flex align-items-center gap-3 justify-content-center fs-5 py-2 green-box"
                   >
@@ -114,7 +93,7 @@
                     >
                   </div>
                   <div
-                    class="d-flex align-items-center gap-2 justify-content-center py-2 green-box"
+                    class="d-flex align-items-center gap-2 my-3 justify-content-center py-2 green-box"
                   >
                     <a
                       href="https://sreekuttancs.github.io/presento-website/"
@@ -128,14 +107,14 @@
               </div>
             </div>
 
-            <div class="col-md-6 my-lg-4  my-3">
+            <div class="col-md-6 my-lg-4 my-3">
               <div class="cards py-5 px-3">
                 <img src="enno.png" class="img-fluid" />
                 <h4 class="text-white hover-green text-center mt-3">
                   Enno Website
                 </h4>
 
-                <div class="d-flex justify-content-around text-white mt-3">
+                <div class="d-flex showcase justify-content-around text-white mt-3">
                   <div
                     class="d-flex align-items-center gap-3 justify-content-center fs-5 py-2 green-box"
                   >
@@ -148,7 +127,7 @@
                     >
                   </div>
                   <div
-                    class="d-flex align-items-center gap-2 justify-content-center py-2 green-box"
+                    class="d-flex align-items-center my-3 gap-2 justify-content-center py-2 green-box"
                   >
                     <a
                       href="https://sreekuttancs.github.io/enno-website/"
@@ -161,14 +140,16 @@
               </div>
             </div>
 
-            <div class="col-md-6 my-lg-4  my-3">
+            <div class="col-md-6 my-lg-4 my-3">
               <div class="cards py-5 px-3">
                 <img src="fox.png" class="img-fluid" />
                 <h4 class="text-white hover-green text-center mt-3">
                   Fox University Website
                 </h4>
 
-                <div class="d-flex justify-content-around text-white mt-3">
+                <div
+                  class="d-flex showcase my-3 justify-content-around text-white mt-3"
+                >
                   <div
                     class="d-flex align-items-center gap-3 justify-content-center fs-5 py-2 green-box"
                   >
@@ -181,7 +162,7 @@
                     >
                   </div>
                   <div
-                    class="d-flex align-items-center gap-2 justify-content-center py-2 green-box"
+                    class="d-flex my-3 align-items-center gap-2 justify-content-center py-2 green-box"
                   >
                     <a
                       href="https://sreekuttancs.github.io/fox-university-website/"
@@ -194,14 +175,16 @@
               </div>
             </div>
 
-            <div class="col-md-6 my-lg-4  my-3">
+            <div class="col-md-6 my-lg-4 my-3">
               <div class="cards py-5 px-3">
                 <img src="pause.png" class="img-fluid" />
                 <h4 class="text-white hover-green text-center mt-3">
                   PAUSE THE TIME
                 </h4>
 
-                <div class="d-flex justify-content-around text-white mt-3">
+                <div
+                  class="d-flex showcase justify-content-around text-white mt-3"
+                >
                   <div
                     class="d-flex align-items-center gap-3 justify-content-center fs-5 py-2 green-box"
                   >
@@ -214,10 +197,43 @@
                     >
                   </div>
                   <div
-                    class="d-flex align-items-center gap-2 justify-content-center py-2 green-box"
+                    class="d-flex my-3 align-items-center gap-2 justify-content-center py-2 green-box"
                   >
                     <a
                       href="https://pause-game.netlify.app/"
+                      class="text-decoration-none text-white fs-4"
+                    >
+                      <i class="bi bi-tv"></i> Demo</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 my-lg-4 my-3">
+              <div class="cards py-5 px-3">
+                <img src="weather.png" class="img-fluid" />
+                <h4 class="text-white hover-green text-center mt-3">WEATHER</h4>
+
+                <div
+                  class="d-flex showcase justify-content-around text-white mt-3"
+                >
+                  <div
+                    class="d-flex align-items-center gap-3 justify-content-center fs-5 py-2 green-box"
+                  >
+                    <a
+                      href="https://github.com/SreekuttanCS/weather"
+                      class="text-decoration-none text-white fs-5"
+                    >
+                      <i class="bi bi-github hover-green text-white pe-2"></i
+                      >Github</a
+                    >
+                  </div>
+                  <div
+                    class="d-flex my-3 align-items-center gap-2 justify-content-center py-2 green-box"
+                  >
+                    <a
+                      href="https://sreekuttancs.github.io/weather/"
                       class="text-decoration-none text-white fs-4"
                     >
                       <i class="bi bi-tv"></i> Demo</a
