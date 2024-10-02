@@ -56,6 +56,10 @@ color:#3ccf91;
   color: #34b680 !important;
 }
 @media (max-width: 772px) {
+  .nav{
+    width: 80vw !important;
+    font-size: 1rem;
+  }
   .nav > .nav-btn {
     display: inline-block;
     position: absolute;
@@ -106,9 +110,8 @@ color:#3ccf91;
   font-style: normal;
     font-size: 2rem !important;
   }
-  .showcase{
-    display: block !important;
-    
+  .showcase div{
+   padding: 0.8rem !important;
   }
   
 }
